@@ -1,0 +1,27 @@
+<configs>
+
+<!--	// ZMXuiMeanCloudCP // Forge Input Material Conversion  -->
+
+		<insertAfter xpath="/controls/smx_input_forge_material_6">
+			<smx_input_forge_material_7>
+				<rect name="row" style="hover, smx_itemstack_65" controller="IngredientEntry" tooltip_key="{itemname}" collider_scale="1.1">
+					<sprite name="background" depth="3" pos="5,-5" size="65,65" atlas="uiAtlas" sprite="smx_ui_slot_frame" color="255,165,0,158" type="sliced" fillcenter="false" globalopacity="true" />
+					<sprite name="background2" depth="2" pos="2,-42" size="59,41" atlas="uiAtlas" sprite="smx_ui_slot_background" color="[uiElementsBG]" type="sliced" rotation="45" />
+					<sprite name="icon" depth="4" size="40,40" pos="38,-35" atlas="itemiconatlas" sprite="resourceCopper" color="{itemicontint}" pivot="center" foregroundlayer="true" />
+					<label name="material" depth="2" pos="99999,99999" style="workstation.reserve.name" />
+					<label name="weight" depth="5" pos="-11,-50" style="workstation.reserve.weight" font_size="16" crispness="Never" effect="outline" effect_distance="1,1" justify="right" />
+				</rect>
+			</smx_input_forge_material_7>
+
+			<smx_input_forge_material_8>
+				<rect name="row" style="hover, smx_itemstack_65" controller="IngredientEntry" tooltip_key="{itemname}" collider_scale="1.1">
+					<sprite name="background" depth="3" pos="5,-5" size="65,65" atlas="uiAtlas" sprite="smx_ui_slot_frame" color="255,165,0,158" type="sliced" fillcenter="false" globalopacity="true" />
+					<sprite name="background2" depth="2" pos="2,-42" size="59,41" atlas="uiAtlas" sprite="smx_ui_slot_background" color="[uiElementsBG]" type="sliced" rotation="45" />
+					<sprite name="icon" depth="4" size="40,40" pos="38,-35" atlas="itemiconatlas" sprite="resourceZinc" color="{itemicontint}" pivot="center" foregroundlayer="true" />
+					<label name="material" depth="2" pos="99999,99999" style="workstation.reserve.name" />
+					<label name="weight" depth="5" pos="-11,-50" style="workstation.reserve.weight" font_size="16" crispness="Never" effect="outline" effect_distance="1,1" justify="right" />
+				</rect>
+			</smx_input_forge_material_8>
+		</insertAfter>
+
+</configs>

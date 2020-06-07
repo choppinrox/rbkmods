@@ -1,0 +1,7 @@
+<configs>
+
+<!--	// ZMXuiMeanCloudCP // Rock Crusher Category Display -->
+
+		<set xpath="/ui_display_info/crafting_category_display/crafting_category_list[@display_type='rockCrusher']/crafting_category[@name='Resources']/@icon">smx_ui_crafting_traps_icon</set>
+
+</configs>

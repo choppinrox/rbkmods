@@ -1,0 +1,16 @@
+<configs>
+
+<!--	// ZMXuiMeanCloudCP // Forge Input Material Conversion  -->
+
+		<append xpath="/windows/window[@name='windowForgeInput']/@materials_accepted">,copper,zinc</append>
+
+		<set xpath="/windows/window[@name='windowForgeInput']/panel/panel/rect/rect/@pos">-340,90</set>
+		<set xpath="/windows/window[@name='windowForgeInput']/panel/panel/rect/rect/grid/@rows">8</set>
+		<set xpath="/windows/window[@name='windowForgeInput']/panel/panel/rect/rect/sprite/@size">120,600</set>
+
+		<insertAfter xpath="/windows/window[@name='windowForgeInput']/panel/panel/rect/rect/grid/smx_input_forge_material_6">
+			<smx_input_forge_material_8 name="Zinc" />
+			<smx_input_forge_material_7 name="Copper" />
+		</insertAfter>
+
+</configs>
